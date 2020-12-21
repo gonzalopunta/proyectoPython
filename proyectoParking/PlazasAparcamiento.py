@@ -1,6 +1,7 @@
 
 class PlazasAparcamiento():
-    def __init__(self, numPlazas, plazasLibres, fechaYHora):
+
+    def __init__(self, plazasLibres, fechaYHora, numPlazas=200):
         self.numPlazas = numPlazas
         self.plazasLibres = plazasLibres
         self.fechaYHora = fechaYHora

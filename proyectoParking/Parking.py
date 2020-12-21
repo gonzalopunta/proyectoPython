@@ -15,3 +15,6 @@ class Parking():
 
     def caducidadAbonos(self):
         pass
+
+    def generarTicket(self, matriculaVehiculo, fecha, idPlaza, pin):
+        pass
